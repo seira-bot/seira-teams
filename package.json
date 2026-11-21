@@ -1,0 +1,16 @@
+{
+  "name": "seira-teams",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Community team templates for Seira",
+  "scripts": {
+    "test": "node scripts/build-catalog.mjs && node scripts/validate.mjs",
+    "catalog": "node scripts/build-catalog.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.9.0"
+  },
+  "license": "MIT"
+}
